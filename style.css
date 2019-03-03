@@ -13,7 +13,7 @@ html {
   }
 
   body {
-    background-color: #0ac3a7;    
+    background-image:linear-gradient(#0ac3a7,white);   
     margin: 0;
     padding: 0;
     
@@ -56,15 +56,19 @@ font-family: 'Luckiest Guy', cursive;
     box-shadow: 6px 6px 20px 4px rgba(0, 0, 0, 0.315);
     outline: none;
     transition:0.2s;
+    margin-bottom: 7%;
     
   }
 
 
   .touche_piano:hover {
     transform: scale(1.01);
+    outline: none;
+
   }
   .touche_piano:active {
     transform: scale(0.95);
+    
   }
 nav {
 
@@ -84,3 +88,5 @@ nav {
   .keydownTest2{
     transform: scale(1); 
   }
+
+  
