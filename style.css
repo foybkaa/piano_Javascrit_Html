@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+  }
+
+  h1{
+      color: white;
+      text-align: center;
+      font-size: 100px;
+      font-family: 'Permanent Marker', cursive;
+      letter-spacing: 5px;
+      text-shadow: black 4px 4px;
+      
+  }
+
+  body {
+    background-color: #0ac3a7;    
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  main { 
+    height: 100%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+span{
+
+  font-style: italic;
+  color: white;
+  background-color: #0ac3a7;
+  padding: 10px;
+  border-radius: 8px 8px;
+  font-family: monospace;
+  
+
+}
+.touche_piano p {
+color: #0ac3a7;
+font-weight: bold;
+font-size: 35px;
+font-family: 'Luckiest Guy', cursive;
+}
+
+  .touche_piano {
+    width: 140px;
+    height: 220px;
+    margin: 5px;
+    background-color: #FFF;
+    border: 3px solid black;
+    border-radius: 6px 6px;
+    cursor: pointer;
+    box-shadow: 6px 6px 20px 4px rgba(0, 0, 0, 0.315);
+    outline: none;
+    transition:0.2s;
+    
+  }
+
+
+  .touche_piano:hover {
+    transform: scale(1.01);
+  }
+  .touche_piano:active {
+    transform: scale(0.95);
+  }
+nav {
+
+  padding: 40px 0 40px;
+}
+  nav a {
+    color: white;
+    font-size: 25px;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2px;
+  }
+  
+  .keydownTest{
+    transform: scale(0.95); 
+  }
+
+  .keydownTest2{
+    transform: scale(1); 
+  }
